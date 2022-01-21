@@ -1,0 +1,11 @@
+.vscode/*
+_backup
+_data
+wp-admin
+wp-includes
+license.txt
+wp-content/*
+!/wp-content/themes/
+wp-content/themes/cesselWebgateTheme_015/
+wp-content/themes/twentytwentyone/
+wp-content/themes/Divi/
