@@ -47,7 +47,32 @@ Version: 4.14.4.1642790634
   margin-top: 50px;
 }
 
-.product-categories_space-around_on ul.products  {
+.product-categories_space-around_on ul.products {
   display: flex;
   justify-content: space-between;
+}
+
+.product-categories_space-around_on ul.products li.product {
+  border: 10px solid white;
+}
+
+.woocommerce-loop-category__title {
+  background: white;
+}
+
+.button_color_black {
+  background: black;
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+  padding: 5px 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.et_pb_bg_layout_light.button_color_black.et_pb_button:hover,
+.et_pb_bg_layout_light.button_color_black .et_pb_button:hover {
+  background-color: rgb(255 255 255 / 50%);
+  color: black;
+  line-height: 31px !important;
 }
