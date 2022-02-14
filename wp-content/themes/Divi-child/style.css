@@ -10,6 +10,15 @@ Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our 
 Version: 4.14.4.1642790634
 */
 
+body,
+.et_pb_section {
+  background: #ededed;
+}
+
+a {
+  color: #000000;
+}
+
 .et_pb_empty_slide {
   height: 430px !important;
 }
@@ -52,12 +61,11 @@ Version: 4.14.4.1642790634
   justify-content: space-between;
 }
 
-.product-categories_space-around_on ul.products li.product {
-  border: 10px solid white;
-}
-
 .woocommerce-loop-category__title {
+  font-size: 16px !important;
+  font-weight: 700;
   background: white;
+  padding-left: 10px !important;
 }
 
 .button_color_black {
@@ -70,9 +78,50 @@ Version: 4.14.4.1642790634
   text-align: center;
 }
 
+.button_color_yellow {
+  background: #FFD814;
+  border-color: #FCD200;
+  border-width: 1px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  color: #0f1111;
+  font-size: 13px !important;
+  line-height: 19px !important;
+  text-align: center;
+}
+
 .et_pb_bg_layout_light.button_color_black.et_pb_button:hover,
 .et_pb_bg_layout_light.button_color_black .et_pb_button:hover {
   background-color: rgb(255 255 255 / 50%);
   color: black;
   line-height: 31px !important;
+}
+
+.page-id-413851 .woocommerce-loop-category__title .count,
+.page-id-239 .woocommerce-loop-category__title .count {
+  display: none;
+}
+
+.slider__product-categories .et_pb_column {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.sign-in-column .et_pb_button_module_wrapper {
+  text-align: center;
+  background: white;
+  padding: 11px 6px;
+}
+
+.kupit_tatu__category-thumb li.product-category.product img {
+  border: 10px solid #fff;
+}
+
+.tns-nav {
+  display: none;
+}
+
+.controlsWrap .prev,
+.controlsWrap .next {
+  background-color: #fff;
 }
