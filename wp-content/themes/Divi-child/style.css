@@ -79,8 +79,8 @@ a {
 }
 
 .button_color_yellow {
-  background: #FFD814;
-  border-color: #FCD200;
+  background: #ffd814;
+  border-color: #fcd200;
   border-width: 1px;
   border-radius: 8px;
   box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
@@ -125,3 +125,54 @@ a {
 .controlsWrap .next {
   background-color: #fff;
 }
+
+#footer-widgets .footer-widget li:before {
+  border-width: 0;
+}
+
+.social-icons li,
+.social-icons li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.social-icons li a {
+  background-image: url(./assets/icons/social_sprite_borderless_color_white.png);
+}
+
+.social-icons__instagram {
+  background-position-x: 3px;
+  background-size: cover;
+}
+
+.social-icons__facebook {
+  background-position-x: -57px;
+  background-size: cover;
+}
+
+.social-icons__youtube {
+  background-position-x: -117px;
+  background-size: cover;
+}
+
+.social-icons__vkontakte {
+  background-position-x: -237px;
+  background-size: cover;
+}
+
+.social-icons__telegram {
+  background-position-x: -297px;
+  background-size: cover;
+}
+
+.social-icons__whatsapp {
+  background-position-x: -357px;
+  background-size: cover;
+}
+
+#footer-bottom {
+  display: none;
+}
+
+
