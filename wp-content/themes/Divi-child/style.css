@@ -12,7 +12,7 @@ Version: 4.14.4.1642790634
 
 body,
 .et_pb_section {
-  background: #ededed;
+  background: #fff;
 }
 
 a {
@@ -175,4 +175,39 @@ a {
   display: none;
 }
 
+.et_mobile_device .kupit-tatu__slider {
+  position: relative !important;
+  margin-left: 0 !important;
+  width: 100%;
+}
 
+.et_mobile_device .et-pb-arrow-next,
+.et_mobile_device .et-pb-arrow-prev {
+  top: 0;
+  height: 455px;
+}
+
+.controlsWrap .fa-chevron-left,
+.controlsWrap .fa-chevron-right {
+  font-size: 26px;
+  color: #000;
+}
+
+.item > .elements-wrapper > div {
+  position: relative;
+}
+
+.wcps-items-price {
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+  background: black;
+  width: 80%;
+  left: 10%;
+}
+
+.wcps-items-price .woocommerce-Price-amount {
+  text-align: center;
+  display: block;
+  color: white;
+}
