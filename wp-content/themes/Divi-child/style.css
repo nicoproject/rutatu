@@ -10,3 +10,204 @@ Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our 
 Version: 4.14.4.1642790634
 */
 
+body,
+.et_pb_section {
+  background: #fff;
+}
+
+a {
+  color: #000000;
+}
+
+.et_pb_empty_slide {
+  height: 430px !important;
+}
+
+.slider__product-categories {
+  /* position: relative;
+  top: 180px; */
+}
+
+.et-pb-arrow-next,
+.et-pb-arrow-prev {
+  top: 0;
+  height: 200px;
+  /* opacity: 1; */
+}
+
+/* .et-pb-arrow-prev {
+  left: 0;
+} */
+
+.et-pb-arrow-prev:before {
+  position: relative;
+  top: 83px;
+}
+
+.et-pb-arrow-next:before {
+  position: relative;
+  top: 83px;
+}
+
+.et-pb-arrow-prev:before,
+.et-pb-arrow-next:before {
+  position: relative;
+  top: 83px;
+  margin-top: 50px;
+}
+
+.product-categories_space-around_on ul.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.woocommerce-loop-category__title {
+  font-size: 16px !important;
+  font-weight: 700;
+  background: white;
+  padding-left: 10px !important;
+}
+
+.button_color_black {
+  background: black;
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+  padding: 5px 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.button_color_yellow {
+  background: #ffd814;
+  border-color: #fcd200;
+  border-width: 1px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  color: #0f1111;
+  font-size: 13px !important;
+  line-height: 19px !important;
+  text-align: center;
+}
+
+.et_pb_bg_layout_light.button_color_black.et_pb_button:hover,
+.et_pb_bg_layout_light.button_color_black .et_pb_button:hover {
+  background-color: rgb(255 255 255 / 50%);
+  color: black;
+  line-height: 31px !important;
+}
+
+.page-id-413851 .woocommerce-loop-category__title .count,
+.page-id-239 .woocommerce-loop-category__title .count {
+  display: none;
+}
+
+.slider__product-categories .et_pb_column {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.sign-in-column .et_pb_button_module_wrapper {
+  text-align: center;
+  background: white;
+  padding: 11px 6px;
+}
+
+.kupit_tatu__category-thumb li.product-category.product img {
+  border: 10px solid #fff;
+}
+
+.tns-nav {
+  display: none;
+}
+
+.controlsWrap .prev,
+.controlsWrap .next {
+  background-color: #fff;
+}
+
+#footer-widgets .footer-widget li:before {
+  border-width: 0;
+}
+
+.social-icons li,
+.social-icons li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.social-icons li a {
+  background-image: url(./assets/icons/social_sprite_borderless_color_white.png);
+}
+
+.social-icons__instagram {
+  background-position-x: 3px;
+  background-size: cover;
+}
+
+.social-icons__facebook {
+  background-position-x: -57px;
+  background-size: cover;
+}
+
+.social-icons__youtube {
+  background-position-x: -117px;
+  background-size: cover;
+}
+
+.social-icons__vkontakte {
+  background-position-x: -237px;
+  background-size: cover;
+}
+
+.social-icons__telegram {
+  background-position-x: -297px;
+  background-size: cover;
+}
+
+.social-icons__whatsapp {
+  background-position-x: -357px;
+  background-size: cover;
+}
+
+#footer-bottom {
+  display: none;
+}
+
+.et_mobile_device .kupit-tatu__slider {
+  position: relative !important;
+  margin-left: 0 !important;
+  width: 100%;
+}
+
+.et_mobile_device .et-pb-arrow-next,
+.et_mobile_device .et-pb-arrow-prev {
+  top: 0;
+  height: 455px;
+}
+
+.controlsWrap .fa-chevron-left,
+.controlsWrap .fa-chevron-right {
+  font-size: 26px;
+  color: #000;
+}
+
+.item > .elements-wrapper > div {
+  position: relative;
+}
+
+.wcps-items-price {
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+  background: black;
+  width: 80%;
+  left: 10%;
+}
+
+.wcps-items-price .woocommerce-Price-amount {
+  text-align: center;
+  display: block;
+  color: white;
+}
