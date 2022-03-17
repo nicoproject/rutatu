@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(../fonts/subset-ProximaNova-Regular.woff2)
+      format('woff2'),
+    url(../fonts/subset-ProximaNova-Regular.woff)
+      format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(//cdn.shopify.com/s/files/1/0080/8372/t/32/assets/proximanova-regitalic.woff2?123)
+      format('woff2'),
+    url(//cdn.shopify.com/s/files/1/0080/8372/t/32/assets/proximanova-regitalic.woff?4429)
+      format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(//cdn.shopify.com/s/files/1/0080/8372/t/32/assets/proximanova-semibold.woff2?123)
+      format('woff2'),
+    url(//cdn.shopify.com/s/files/1/0080/8372/t/32/assets/proximanova-semibold.woff?4429)
+      format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(//cdn.shopify.com/s/files/1/0080/8372/t/32/assets/proximanova-bold.woff2?123)
+      format('woff2'),
+    url(//cdn.shopify.com/s/files/1/0080/8372/t/32/assets/proximanova-bold.woff?4429)
+      format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
