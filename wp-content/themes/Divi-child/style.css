@@ -14,6 +14,7 @@ Version: 4.14.4.1642790634
 @import './assets/css/cart.css';
 @import './assets/css/search.css';
 @import './assets/css/account.css';
+@import './assets/css/header-contacts.css';
 
 body,
 .et_pb_section {

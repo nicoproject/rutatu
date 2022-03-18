@@ -311,7 +311,11 @@
 					<div class="cart__container">
 						<a href="https://rutatu.ru/new/?page_id=12" title="Корзин">
 							<div class="cart__icon">
-								<span class="cart__total-counter"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+								<span class="cart__total-counter">
+									<?php 
+									if (0 !== WC()->cart->get_cart_contents_count())
+									echo WC()->cart->get_cart_contents_count(); ?>
+								</span>
 							</div>
 						</a>
 					</div>
@@ -321,6 +325,12 @@
 						<a href="https://rutatu.ru/new/?page_id=14" title="Мой аккаунт">
 							<div class="account__icon"></div>
 						</a>
+					</div>
+
+					<!-- Header Contacts -->
+					<div class="header-contacts__container">
+						<div class="header-contacts__email">zakaz@rutatu.ru</div>
+						<div class="header-contacts__phone">+7 (968) 880 70 00</div>
 					</div>
 
 

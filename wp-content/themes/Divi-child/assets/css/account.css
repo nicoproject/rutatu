@@ -15,7 +15,6 @@
   animation: fadeInBottom 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-.et_pb_menu_hidden .account__container,
 .et_pb_menu_hidden .account__container {
   opacity: 0;
   animation: fadeOutBottom 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
