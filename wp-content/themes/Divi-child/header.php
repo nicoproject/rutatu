@@ -309,14 +309,18 @@
 
 					<!-- New cart output -->
 					<div class="cart__container">
-						<div class="cart__icon">
-							<span class="cart__total-counter"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
-						</div>
+						<a href="https://rutatu.ru/new/?page_id=12" title="Корзин">
+							<div class="cart__icon">
+								<span class="cart__total-counter"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+							</div>
+						</a>
 					</div>
 
-					<!-- Avatar output -->
-					<div class="profile__container">
-						<div class="profile__icon"></div>
+					<!-- My account -->
+					<div class="account__container">
+						<a href="https://rutatu.ru/new/?page_id=14" title="Мой аккаунт">
+							<div class="account__icon"></div>
+						</a>
 					</div>
 
 
