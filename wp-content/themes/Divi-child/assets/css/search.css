@@ -1,0 +1,10 @@
+#et_search_icon {
+  background: url(../icons/icon-search.svg) no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+#et_search_icon:before {
+  display: none;
+}

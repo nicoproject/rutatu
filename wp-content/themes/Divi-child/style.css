@@ -12,6 +12,7 @@ Version: 4.14.4.1642790634
 
 @import './assets/css/fonts.css';
 @import './assets/css/cart.css';
+@import './assets/css/search.css';
 
 body,
 .et_pb_section {
@@ -260,8 +261,9 @@ a {
 
 /* Header styles start */
 #et-top-navigation {
+  position: relative;
   width: 100%;
-  float: left;
+  float: none;
   padding-left: 168px;
 }
 
@@ -272,4 +274,5 @@ a {
 .et_header_style_left #et-top-navigation nav > ul > li > a {
   /* padding-bottom: 0; */
 }
+
 /* Header styles end */

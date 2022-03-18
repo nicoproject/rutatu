@@ -307,14 +307,6 @@
 						</nav>
 					<?php endif; ?>
 
-					<?php
-					// if (!$et_top_info_defined && (!$et_slide_header || is_customize_preview())) {
-					// 	et_show_cart_total(array(
-					// 		'no_text' => false,
-					// 	));
-					// }
-					?>
-
 					<!-- New cart output -->
 					<div class="cart__container">
 						<div class="cart__icon">

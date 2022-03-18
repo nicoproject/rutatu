@@ -1,6 +1,9 @@
 .cart__container {
+  position: absolute;
+  right: 35px;
   width: 55px;
-  float: right;
+  transition: all 0.4s ease-in-out;
+  animation: fadeInBottom 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .et_pb_menu_visible .cart__container {
@@ -10,6 +13,7 @@
 .et_pb_menu_hidden .cart__container,
 .et_pb_menu_hidden .cart__container {
   opacity: 0;
+  animation: fadeOutBottom 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .cart__icon {
@@ -17,7 +21,6 @@
   background: url('../icons/icon-cart.svg') no-repeat;
   width: 24px;
   height: 24px;
-  transition: opacity .2s ease-in-out;
 }
 
 .cart__total-counter {
@@ -28,6 +31,6 @@
   padding: 1px 5px;
   border-radius: 50%;
   text-align: center;
-  font-size: .625rem;
-  line-height: .875rem;
+  font-size: 0.625rem;
+  line-height: 0.875rem;
 }
