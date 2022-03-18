@@ -6,6 +6,10 @@
   transition: all 0.4s ease-in-out;
 }
 
+.et_mobile_device .account__container {
+  display: none;
+}
+
 .et-fixed-header .account__container {
   top: 15px;
 }

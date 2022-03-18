@@ -9,6 +9,11 @@
   transition: all 0.4s ease-in-out;
 }
 
+.et_mobile_device .et_top_search {
+  display: none;
+}
+
+
 .et-fixed-header #et_top_search {
   top: 15px;
 }

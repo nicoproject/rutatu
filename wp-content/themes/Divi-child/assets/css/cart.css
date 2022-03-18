@@ -6,6 +6,11 @@
   transition: all 0.4s ease-in-out;
 }
 
+.et_mobile_device .cart__container {
+  display: none;
+}
+
+
 .et-fixed-header .cart__container {
   top: 15px;
 }
