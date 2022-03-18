@@ -1,0 +1,33 @@
+.cart__container {
+  width: 55px;
+  float: right;
+}
+
+.et_pb_menu_visible .cart__container {
+  opacity: 1;
+}
+
+.et_pb_menu_hidden .cart__container,
+.et_pb_menu_hidden .cart__container {
+  opacity: 0;
+}
+
+.cart__icon {
+  position: relative;
+  background: url('../icons/icon-cart.svg') no-repeat;
+  width: 24px;
+  height: 24px;
+  transition: opacity .2s ease-in-out;
+}
+
+.cart__total-counter {
+  position: absolute;
+  right: 0;
+  background-color: rgb(214, 213, 200);
+  color: rgb(97, 84, 73);
+  padding: 1px 5px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: .625rem;
+  line-height: .875rem;
+}

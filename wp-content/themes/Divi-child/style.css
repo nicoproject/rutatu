@@ -11,11 +11,12 @@ Version: 4.14.4.1642790634
 */
 
 @import './assets/css/fonts.css';
+@import './assets/css/cart.css';
 
 body,
 .et_pb_section {
   background: #fff;
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Proxima Nova Rg', 'Open Sans', Verdana, sans-serif;
 }
 
 a {
@@ -24,6 +25,10 @@ a {
 
 .et_pb_empty_slide {
   height: 430px !important;
+}
+
+.et_pb_row_1 {
+  top: 140px !important;
 }
 
 .slider__product-categories {
@@ -257,10 +262,14 @@ a {
 #et-top-navigation {
   width: 100%;
   float: left;
-  padding-left: 145px;
+  padding-left: 168px;
 }
 
 #et-top-navigation .et-cart-info {
   float: right;
+}
+
+.et_header_style_left #et-top-navigation nav > ul > li > a {
+  /* padding-bottom: 0; */
 }
 /* Header styles end */
