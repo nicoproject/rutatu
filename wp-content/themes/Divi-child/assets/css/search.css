@@ -1,0 +1,40 @@
+#et_top_search {
+  position: absolute;
+  top: 30px;
+  right: 143px;
+  float: none;
+  display: block;
+  width: 21px;
+  margin: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.et_mobile_device .et_top_search {
+  display: none;
+}
+
+
+.et-fixed-header #et_top_search {
+  top: 15px;
+}
+
+#et_search_icon {
+  background: url(../icons/icon-search.svg) no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+  transition: all 0.4s ease-in-out;
+}
+.et_pb_menu_visible #et_search_icon {
+  opacity: 1;
+  animation: fadeInBottom 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.et_pb_menu_hidden #et_search_icon {
+  opacity: 0;
+  animation: fadeOutBottom 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+#et_search_icon:before {
+  display: none;
+}

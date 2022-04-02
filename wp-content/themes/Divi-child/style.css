@@ -10,9 +10,16 @@ Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our 
 Version: 4.14.4.1642790634
 */
 
+@import './assets/css/fonts.css';
+@import './assets/css/cart.css';
+@import './assets/css/search.css';
+@import './assets/css/account.css';
+@import './assets/css/header-contacts.css';
+
 body,
 .et_pb_section {
   background: #fff;
+  font-family: 'Proxima Nova Rg', 'Open Sans', Verdana, sans-serif;
 }
 
 a {
@@ -21,6 +28,10 @@ a {
 
 .et_pb_empty_slide {
   height: 430px !important;
+}
+
+.et_pb_row_1 {
+  top: 140px !important;
 }
 
 .slider__product-categories {
@@ -175,9 +186,17 @@ a {
   display: none;
 }
 
+/* Mobile rules  start*/
+
 .et_mobile_device .kupit-tatu__slider {
-  position: relative !important;
+  /* position: relative !important; */
   margin-left: 0 !important;
+  width: 100%;
+}
+
+.et_mobile_device .et_pb_row_3 {
+  top: 220px;
+  margin: 0 0 190px;
   width: 100%;
 }
 
@@ -186,6 +205,18 @@ a {
   top: 0;
   height: 455px;
 }
+
+.et_mobile_device .wcps-container-413899 .item {
+  border-top: 1px solid white;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.et_mobile_device .layout-413901 .element-1647533238681 {
+  text-align: center;
+  font-size: 18px;
+}
+/* Mobile rules  end*/
 
 .controlsWrap .fa-chevron-left,
 .controlsWrap .fa-chevron-right {
@@ -211,3 +242,39 @@ a {
   display: block;
   color: white;
 }
+/* Mobile categories slider */
+.wcps-container-413899 .slick-dots {
+  padding: 0;
+}
+
+.slick-dots li button:before {
+  font-size: 55px !important;
+  line-height: 45px !important;
+  opacity: 0.5 !important;
+}
+
+.wcps-container-413899 .slick-dots li {
+  margin: 0 5px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: red !important;
+}
+
+/* Header styles start */
+#et-top-navigation {
+  position: relative;
+  width: 100%;
+  float: none;
+  padding-left: 168px;
+}
+
+#et-top-navigation .et-cart-info {
+  float: right;
+}
+
+.et_header_style_left #et-top-navigation nav > ul > li > a {
+  /* padding-bottom: 0; */
+}
+
+/* Header styles end */

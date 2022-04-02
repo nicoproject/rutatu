@@ -1,0 +1,34 @@
+.header-contacts__container {
+  position: absolute;
+  top: 29px;
+  right: 200px;
+  display: flex;
+  font-size: 18px;
+  color: #000;
+  transition: all 0.4s ease-in-out;
+}
+
+.et_mobile_device .header-contacts__container {
+  display: none;
+}
+
+.et-fixed-header .header-contacts__container {
+  top: 15px;
+}
+
+.et_pb_menu_visible .header-contacts__container {
+  opacity: 1;
+  animation: fadeInBottom 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.et_pb_menu_hidden .header-contacts__container {
+  opacity: 0;
+  animation: fadeOutBottom 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.header-contacts__email {
+  margin-right: 20px;
+}
+
+.header-contacts__phone {
+}
