@@ -34,9 +34,8 @@ a {
   top: 140px !important;
 }
 
-.slider__product-categories {
-  /* position: relative;
-  top: 180px; */
+.slider__product-categories .et_pb_column_1_4 {
+  width: 350px;
 }
 
 .et-pb-arrow-next,
@@ -67,16 +66,28 @@ a {
   margin-top: 50px;
 }
 
-.product-categories_space-around_on ul.products {
-  display: flex;
-  justify-content: space-between;
+/* Kupit-tatu landing page styles */
+.slider__product-categories .et_pb_column_1 {
+  margin-left: 20px !important;
+}
+
+.sign-in-label {
+  background: #fff;
+  margin-bottom: 0 !important;
+  padding: 0 10px;
+}
+
+.sign-in-label__header {
+  font-size: 20px !important;
+  font-weight: 700;
+  padding: 20px 0 0 0;
 }
 
 .woocommerce-loop-category__title {
-  font-size: 16px !important;
+  font-size: 20px !important;
   font-weight: 700;
   background: white;
-  padding-left: 10px !important;
+  padding: 20px 0 0 10px !important;
 }
 
 .button_color_black {
@@ -114,15 +125,17 @@ a {
 }
 
 .slider__product-categories .et_pb_column {
-  margin-right: 2%;
-  margin-left: 2%;
+  margin: 0 10px;
 }
 
 .sign-in-column .et_pb_button_module_wrapper {
   text-align: center;
   background: white;
-  padding: 11px 6px;
+  padding: 15px 6px 62px 0px;
+  margin-bottom: 20px !important;
 }
+
+
 
 .kupit_tatu__category-thumb li.product-category.product img {
   border: 10px solid #fff;
