@@ -10,7 +10,6 @@
   display: none;
 }
 
-
 .et-fixed-header .cart__container {
   top: 15px;
 }
@@ -31,6 +30,14 @@
   background: url('../icons/icon-cart.svg') no-repeat;
   width: 24px;
   height: 24px;
+}
+
+/* Kupit tatu page header menu style */
+.page-id-413851 .cart__icon {
+  background: url('../icons/icon-cart_white.svg') no-repeat;
+}
+.page-id-413851 .et-fixed-header .cart__icon {
+  background: url('../icons/icon-cart.svg') no-repeat;
 }
 
 .cart__total-counter {

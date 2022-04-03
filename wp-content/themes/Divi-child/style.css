@@ -26,6 +26,26 @@ a {
   color: #000000;
 }
 
+.et_fixed_nav.et_show_nav #page-container {
+  padding-top: 0 !important;
+}
+
+.et_fixed_nav #main-header {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.et_fixed_nav #main-header.et-fixed-header {
+  background: rgba(255, 255, 255, 1);
+}
+
+#top-menu .menu-item a {
+  color: white;
+} 
+
+.et-fixed-header #top-menu .menu-item a {
+  color: black;
+} 
+
 .et_pb_empty_slide {
   height: 430px !important;
 }
@@ -134,8 +154,6 @@ a {
   padding: 15px 6px 62px 0px;
   margin-bottom: 20px !important;
 }
-
-
 
 .kupit_tatu__category-thumb li.product-category.product img {
   border: 10px solid #fff;
@@ -279,7 +297,7 @@ a {
   position: relative;
   width: 100%;
   float: none;
-  padding-left: 168px;
+  padding-left: 212px;
 }
 
 #et-top-navigation .et-cart-info {

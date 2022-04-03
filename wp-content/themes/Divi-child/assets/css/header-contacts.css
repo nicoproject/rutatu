@@ -1,3 +1,7 @@
+.et_mobile_device .header-contacts__container {
+  display: none;
+}
+
 .header-contacts__container {
   position: absolute;
   top: 29px;
@@ -8,12 +12,14 @@
   transition: all 0.4s ease-in-out;
 }
 
-.et_mobile_device .header-contacts__container {
-  display: none;
+/* Kupit tatu page header menu style */
+.page-id-413851 .header-contacts__container {
+  color: #fff;
 }
 
 .et-fixed-header .header-contacts__container {
   top: 15px;
+  color: #000;
 }
 
 .et_pb_menu_visible .header-contacts__container {

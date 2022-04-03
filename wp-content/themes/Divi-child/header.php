@@ -309,13 +309,15 @@
 
 					<!-- New cart output -->
 					<div class="cart__container">
-						<a href="https://rutatu.ru/new/?page_id=12" title="Корзин">
+						<a href="https://rutatu.ru/new/?page_id=12" title="Корзина">
 							<div class="cart__icon">
-								<span class="cart__total-counter">
-									<?php 
-									if (0 !== WC()->cart->get_cart_contents_count())
-									echo WC()->cart->get_cart_contents_count(); ?>
-								</span>
+								<?php
+								if (0 !== WC()->cart->get_cart_contents_count()) {
+									echo '<span class="cart__total-counter">';
+									echo WC()->cart->get_cart_contents_count();
+									echo '</span>';
+								}
+								?>
 							</div>
 						</a>
 					</div>

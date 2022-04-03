@@ -30,3 +30,11 @@
   width: 25px;
   height: 25px;
 }
+
+/* Kupit tatu page header menu style */
+.page-id-413851 .account__icon {
+  background: url('../icons/icon-account_white.svg') no-repeat;
+}
+.page-id-413851 .et-fixed-header .account__icon {
+  background: url('../icons/icon-account.svg') no-repeat;
+}

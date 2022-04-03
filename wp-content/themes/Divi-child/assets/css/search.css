@@ -13,18 +13,21 @@
   display: none;
 }
 
-
 .et-fixed-header #et_top_search {
   top: 15px;
 }
 
 #et_search_icon {
-  background: url(../icons/icon-search.svg) no-repeat;
+  background: url(../icons/icon-search_white.svg) no-repeat;
   width: 24px;
   height: 24px;
   display: block;
   transition: all 0.4s ease-in-out;
 }
+.et-fixed-header #et_search_icon {
+  background: url(../icons/icon-search.svg) no-repeat;
+}
+
 .et_pb_menu_visible #et_search_icon {
   opacity: 1;
   animation: fadeInBottom 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
@@ -37,4 +40,16 @@
 
 #et_search_icon:before {
   display: none;
+}
+
+.page-id-413851 .et_search_form_container input::placeholder {
+  color: #fff;
+}
+
+.page-id-413851 .et-fixed-header .et_search_form_container input::placeholder {
+  color: #000;
+}
+
+.page-id-413851 span.et_close_search_field:after {
+  color: #fff;
 }
